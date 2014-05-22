@@ -1,6 +1,8 @@
 var Sequelize = require('sequelize');
 
-var seq = new Sequelize('database', 'user', 'pass');
+var seq = new Sequelize('database', 'user', 'passwd', {
+  dialect: 'mysql'
+});
 
 var project = seq.define('project', {
   title:        Sequelize.STRING,
