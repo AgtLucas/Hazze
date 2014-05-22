@@ -1,4 +1,0 @@
-Hazze
-=====
-
-Playing with Sequelizejs
